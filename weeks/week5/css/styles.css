@@ -1,0 +1,76 @@
+/* styles 4 currency form */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+    background-color: black;
+    font-family: monospace;
+    text-transform: lowercase;
+}
+
+body {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+form {
+    max-width: 400px;
+    width: 100%;
+    padding: 20px;
+    margin: 0 auto; /* Center the form */
+}
+
+fieldset {
+    padding: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: lime;
+}
+
+input[type=text], input[type=email], input[type=number] {
+    width: 100%;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+input[type=submit] {
+    margin-bottom: 10px;
+}
+
+select {
+    display: block;
+    margin-bottom: 10px;
+}
+
+form ul {
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+.error {
+    color: lime;
+    font-style: italic;
+    margin-bottom: 5px;
+    text-align: center; /* Center the error messages */
+}
+
+.box {
+    width: 400px;
+    padding: 10px;
+    margin: 0 auto; /* Center the box class */
+    text-align: center; /* Center the content inside the box class */
+}
+
+b{
+    color: lime;
+}
