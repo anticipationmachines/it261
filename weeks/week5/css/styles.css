@@ -1,0 +1,133 @@
+/* styles 4 currency form */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: monospace;
+    text-transform: lowercase;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    height: 100vh;
+    margin: 0;
+}
+
+form {
+    max-width: 400px;
+    width: 100%;
+    padding: 20px;
+    margin: 0 auto; 
+}
+
+fieldset {
+    padding: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: lime;
+}
+
+input[type=text], input[type=email], input[type=number] {
+    width: 100%;
+    height: 30px;
+    margin-bottom: 10px;
+    color: black;
+}
+
+input[type=submit] {
+    margin-bottom: 10px;
+}
+
+select {
+    display: block;
+    margin-bottom: 10px;
+}
+
+form ul {
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+.error {
+    color: lime;
+    font-style: italic;
+    margin-bottom: 5px;
+    text-align: center; 
+}
+
+.box {
+    width: 400px;
+    padding: 10px;
+    margin: 0 auto; 
+    text-align: center; 
+}
+
+b{
+    color: lime;
+}
+
+.poor, .rich {
+    position: absolute;
+    background-color: transparent; 
+    max-width: 200px;
+    left: 58%; 
+    top: 20%;
+    transform: translateX(-50%); 
+}
+
+.poor p{
+    color: rgb(86, 124, 221) !important;
+}
+
+.rich p{
+    color: rgb(86, 124, 221) !important;
+}
+
+.happy {
+    transform: scale(0.6);
+    margin-left: -100px;
+}
+
+.sad {
+    margin-top: 140px;
+    margin-left: 20px;
+    transform:scale(1.6) ;
+}
+
+#bank, #submit {
+    background-color: lime;
+    color: black;
+    padding: 2px 2px !important;
+    border:none;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: left;
+}
+
+footer a {
+    color: lime;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
