@@ -1,0 +1,143 @@
+/* styles for week 6 */
+
+
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+    color: white;
+    text-transform: lowercase;
+}
+
+body {
+    background: black;
+}
+
+legend {
+    color: lime;
+}
+
+form {
+    width:500px;
+    margin: 10px auto;
+
+}
+
+fieldset {
+    padding: 10px;
+}
+
+label{
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: green;
+}
+
+input[type=text], input[type=email], input[type=tel] {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+span {
+    display: block;
+    color: lightgreen;
+    margin-bottom: 10px;
+}
+
+textarea {
+    width: 100%;
+    resize: none;
+    height: 80px;
+    margin-bottom: 10px;
+    color: black !important;
+}
+
+h1{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.thnx {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+h2 {
+    text-align: center;
+}
+
+form ul {
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+form ul li {
+    margin-bottom: 5px;
+}
+
+input {
+    color: black !important;
+}
+
+select, input[type=submit]{
+    background-color: lime;
+    padding:5px;
+    color: black;
+    border: none;
+    margin-bottom: 10px;
+}
+
+
+
+/* table */
+
+table {
+    border: 1px solid white;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+td {
+    border: 1px solid white;  
+    text-align: center !important;
+    justify-content: center;
+    padding: 10px 10px;
+}
+
+h3 {
+    color: lime;
+    margin-bottom: -20px;
+    text-transform: capitalize;
+    letter-spacing: .2em;
+}
+
+h3:hover{
+    color: rgb(245, 151, 74);
+}
+
+@keyframes blink {
+    0% {
+      filter: invert(1);
+    }
+    50% {
+      filter: invert(0);
+    }
+    100% {
+      filter: invert(1);
+    }
+  }
+  
+  img {
+    max-height: 100px;
+  }
+  img:hover {
+    animation: blink 0.2s infinite; /* Adjust the duration as needed */
+  }
