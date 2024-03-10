@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: black;
+    color: lime;
+    font-family: monospace;
+}
+
+#wrapper {
+    max-width: 1100px;
+    margin: 30px auto;
+    clear: both;
+}
+h1 {
+    font-size: 3em;
+    text-align: center;
+}
+
+h3 {
+    padding: 3px;
+    margin-top: 5px;
+}
+
+.center, .errors {
+    text-align: center;
+}
+
+.errors {
+    margin-top: 10px;
+}
+
+.errors p {
+    margin-bottom: 5px;
+    color: green;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto 30px auto;
+    border-color: green;
+}
+
+input {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    font-weight: bold
+}
+
+fieldset {
+    border: 1px solid green;
+    padding: 10px;
+}
+
+header {
+    background: rgb(0, 0, 0);
+    padding:20px;
+    overflow: hidden;
+}
+
+.success {
+    float: left;
+}
+
+.welcome-logout {
+    float: right;
+}
+
+footer {
+    height: 60px;
+    background: black;
+    line-height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    clear: both;
+    bottom: 0px;
+    position: fixed;
+    width: -moz-available;
+}
+
+footer ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+footer li {
+    justify-content: center;
+    margin: 0 15px;
+}
+
+button {
+    background-color: darkgreen;
+    border: none;
+    color: lightgreen;
+    padding: 3px 6px;
+}
+
+button:hover {
+    background-color: lightgreen;
+    color: darkgreen;
+}
+
+button:active{
+    background-color: white;
+    color: white;
+}
+
+.description {
+    color: grey;
+}
